@@ -1,0 +1,242 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* padding: 0px; */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsFW6xbyYNWspozr4mYZC5VGI4moV9MZqe1g&usqp=CAU");
+    position: absolute;
+    /* width: 1440px;
+    height: 900px; */
+    left: calc(50% - 1440px/2);
+    top: 0px;
+    
+    width: 100%;
+    height: 130vh;
+    background-size: cover;
+    /* background-position: center; */
+    
+    /* background: linear-gradient(113.96deg, #213F36 0%, rgba(33, 63, 54, 0.2) 100%); */
+
+}
+.container{
+    overflow: hidden;
+}
+.card{
+    margin: 0px;
+    padding: 20px;
+    background: url("");
+    background-size: cover;
+    background-position: center;
+position: absolute;
+width: 900px;
+height: 550px;
+left: 270px;
+top: 190px;
+background-image: linear-gradient(113.96deg, #213F36 0%, rgba(33, 63, 54, 0.2) 100%), url("https://media.istockphoto.com/id/1280008207/photo/houseplants-for-interior.jpg?b=1&s=170667a&w=0&k=20&c=yVXtFvWHzG53JxYV6uX8_1XVQr3N7Rx_bVeQY-5ip4I=");
+border-radius: 16px;
+}
+.nav{
+    position: absolute;
+    margin: 10px;
+  height: 40px;
+  left: 380px;
+  /* right: 380px; */
+  top: 50px;
+  
+  }
+  .menu-btn {
+ 
+    font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+  margin-left: 20px;
+  text-align: center;
+  
+  color: #FFFFFF;
+  
+  }
+  
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline;
+    text-align: center;
+  }
+ .nav ul li a {
+    
+    text-align: center;
+    padding: 10px;
+    margin-left: 30px;
+    text-decoration: none;
+    font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 100%;
+   color: #fff;
+   
+  }
+  .dropdown{
+    display: none;
+    
+  }
+  .nav ul li.dropdown{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 50px;
+    
+    width: 24px;
+    height: 256px;
+
+  }
+  .nav ul li .dropdown ul{
+    display: block;
+    margin: 20px;
+    left: 100px;
+  }
+  .nav ul li .dropdown ul li{
+    /* width: 150px; */
+    padding: 10px;
+    text-align: center;
+    
+
+  }
+  .dropdown-menu {
+    position: relative;
+    display: inline-block;
+  }
+  .menu-content {
+    display: none;
+    position: absolute;
+    background-color: #017575;
+    min-width: 160px;
+    z-index: 1;
+  }
+  nav{
+    background-color: #017575;
+  }
+  .links,.links-hidden{
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .links-hidden{
+    display: block;
+  }
+  .links{
+    display: inline-block;
+  }
+  .links-hidden:hover,.links:hover {
+    background-color: rgb(8, 107, 46);
+  }
+  .dropdown-menu:hover .menu-content {
+    display: block;
+  }
+h1{
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 100%;
+/* or 80px */
+
+
+background: linear-gradient(180deg, rgba(240, 255, 238, 0.8) 0%, #FFFFFF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+/* text-fill-color: transparent; */
+
+text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+
+}
+p{
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+/* or 24px */
+
+
+color: rgba(255, 255, 255, 0.8);
+
+}
+button{
+    position: absolute;
+width: 260px;
+height: 60px;
+left: 210px;
+top: 426px;
+
+/* Button Shadow 1 */
+
+filter: drop-shadow(0px 10px 20px rgba(0, 0, 0, 0.15));
+
+    background: linear-gradient(90deg, rgba(127, 202, 33, 0.8) 0%, #105200 100%);
+/* Button Shadow 1 */
+
+box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+border-radius: 40px;
+font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 100%;
+/* identical to box height, or 24px */
+
+text-align: center;
+
+/* Drak Text Default */
+
+color: #FFFFFF;
+}
+#btn{
+    height: 40px;
+  width: 160px;
+  left: 510px;
+  top: 0px;
+  border-radius: 10px;
+  
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  /* identical to box height, or 20px */
+  
+  text-align: center;
+  background: #B7EAAF;
+ border: none;
+  color: #000000;
+  
+  }
+  .container .wave{
+    /* top: 600px; */
+    /* background-color: #213F36; */
+    position: absolute;
+    top: 700px;
+    width: 103.4%;
+    border-color: #105200;
+} 
+/* .bottom{
+    position: absolute;
+    width: 1440px;
+    height: 303.36px;
+    left: 0px;
+    top: 596.64px;
+    
+    /* Drak Background */
+    
+    /* background: #213F36;
+}  */
